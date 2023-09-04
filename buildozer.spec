@@ -17,12 +17,6 @@ source.include_exts = py,png,jpg,kv,atlas
 
 [buildozer]
 
-# (list) List of source files to include
-source.include_patterns = assets/*,images/*.png
-
-# (list) List of source files to exclude
-source.exclude_patterns = licenses, test, .*~, *.bak, *.swp, *.pyc, __pycache__
-
 # (str) Path to the main.py file
 main.filename = main.py
 
